@@ -1,0 +1,20 @@
+ NTM  NZM  NRM  NSST  IDTV    NREAD 
+ 16   32   64   3      1        0
+ NTST      TOUT      TMAX     IRESET    WALLTIMEMAX(s)
+ 250      2e-2      0.5      0         500
+ ALX3D    RINT    REXT  ISTR   STR3    LAMB
+ 0.2333     1.0     1.10    6     20.0    20
+ VIROTINT VIROTEXT   AMPL_PERT   FREQ_PERT
+  1.0       0.0       0.0         1.0
+ 1/NU       ROTP    RESID    CFLMAX
+ 1.0e3      0.0     1.e-2    1.2
+ TSTA  STAREAD
+ 0.0    1
+  DTMIN    DTMAX  VMAX     CFLLIM(dt fixed)
+  1e-6     1e-3    1e3         1.0
+ NOUT_RCUT  OUT_THCUT  OUT_STWAVE   TFRAME2D
+   3            1           0          0.05    
+ OUT_3DFIELD TFRAME3D
+   0          0.1  
+MINSTRT (Nx)      MINSTRZ (Nz)     MULTMIN (Nf)
+  0                   0               0
